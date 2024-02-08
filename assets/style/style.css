@@ -17,3 +17,8 @@ header{
 #portfolio .card{
   height: 330px;
 }
+
+#about{
+  background-color: #1abc9c;
+  height: 500px;
+}
