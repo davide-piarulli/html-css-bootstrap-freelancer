@@ -4,3 +4,16 @@
   border: 1px solid black;
   /*min-height: 50px;*/
 }
+
+header{
+  height: 90px;
+}
+
+#jumbo{
+  background-color: #1abc9c;
+  height: 500px;
+}
+
+#portfolio .card{
+  height: 330px;
+}
