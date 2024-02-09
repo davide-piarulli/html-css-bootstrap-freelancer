@@ -78,6 +78,9 @@ section{
   display: block;
 }
 
+#portfolio .dp-card:hover img {
+  filter: opacity(50%);
+}
 
 /* ABOUT */
 #about {
@@ -137,6 +140,12 @@ footer{
   line-height: 55px;
   font-size: 1.5rem;
   margin: 0 5px;
+  cursor: pointer;
+}
+
+.footer-top i:hover{
+  background-color: white;
+  color: black;
 }
 
 .footer-bottom{
