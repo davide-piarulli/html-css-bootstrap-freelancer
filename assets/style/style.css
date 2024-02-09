@@ -1,28 +1,79 @@
-[class^="container"],
-[class^="col"]{
-  /* background-color: rgba(0, 255, 0, 0.3); */
+
+.debug{
   border: 1px solid black;
-  /*min-height: 50px;*/
+
 }
 
-header{
-  height: 90px;
+img{
+  width: 100%;
 }
 
-#jumbo{
+body{
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+section{
+  padding: 60px 0;
+}
+
+hr{
+  color: white;
+  height: 2px;
+}
+
+.my-bg{
+  background-color: #2c3e50 !important;
+}
+
+.dp-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* JUMBOTRON */
+#jumbo {
   background-color: #1abc9c;
-  height: 500px;
 }
 
-#portfolio .card{
-  height: 330px;
+#jumbo img{
+  height: 250px;
 }
 
-#about{
+
+/* PORTFOLIO */
+#portfolio .col .dp-card {
+  /* min-height: 330px; */
+}
+
+#about {
   background-color: #1abc9c;
-  height: 500px;
+  /* height: 500px; */
 }
 
-#contact button{
-  background-color: #1abc9c;
+#contact .my-form input, #contact .my-form textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  border-radius: 0;
 }
+
+#contact .my-form input:focus, 
+#contact .my-form textarea:focus{
+  box-shadow: none;
+}
+
+#contact .my-form input::placeholder,
+#contact .my-form textarea::placeholder{
+  color: #5f6c79;
+}
+
+.my-button{
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my-button:hover{
+  background-color: #13836c;
+}
+
