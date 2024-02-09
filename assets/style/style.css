@@ -16,7 +16,7 @@ section{
   padding: 60px 0;
 }
 
-hr .white{
+hr {
   color: white;
   border-width: 3px;
 }
@@ -30,10 +30,10 @@ hr .white{
   margin: 0 auto;
 }
 
-.row.star.white{
+.row.white{
   color: white;
 }
-.row.star.black{
+.row.black{
   color: black;
 }
 
