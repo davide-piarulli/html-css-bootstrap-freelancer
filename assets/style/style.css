@@ -16,7 +16,7 @@ section{
   padding: 60px 0;
 }
 
-hr{
+hr .white{
   color: white;
   border-width: 3px;
 }
@@ -33,6 +33,11 @@ hr{
 .row.star.white{
   color: white;
 }
+.row.star.black{
+  color: black;
+}
+
+
 
 /* JUMBOTRON */
 #jumbo {
@@ -45,14 +50,20 @@ hr{
 
 
 /* PORTFOLIO */
-#portfolio .col .dp-card {
-  /* min-height: 330px; */
-}
 
+
+
+/* ABOUT */
 #about {
   background-color: #1abc9c;
   /* height: 500px; */
 }
+
+#about .button{
+  width: 140px;
+  border: 1px solid white;
+}
+
 
 #contact .my-form input, #contact .my-form textarea{
   border-top: none;
@@ -81,3 +92,26 @@ hr{
   background-color: #13836c;
 }
 
+
+/* footer */
+
+footer{
+  color: white;
+}
+
+.footer-top{
+  background-color: #3a546d;
+}
+
+.footer-top .fa-brands{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.5rem;
+}
+
+.footer-bottom{
+  background-color: #2c3e50;
+}
